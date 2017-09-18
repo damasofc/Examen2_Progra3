@@ -8,9 +8,10 @@ using namespace std;
 class Libro
 {
 public:
+
+    int existencias;
     string nombre;
     string autor;
-    int existencias;
 
     Libro(string nombre, string autor, int existencias);
     virtual ~Libro();
